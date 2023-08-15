@@ -26,3 +26,12 @@ add data file to DVC
 ```bash
 dvc add data_given/winequality.csv
 ```
+add all files to git
+```bash
+git add .
+```
+
+commit changes to git
+```bash
+git commit -m "first commit"
+```
