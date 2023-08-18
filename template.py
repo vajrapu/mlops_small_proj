@@ -21,9 +21,9 @@ files = [
     "params.yaml",
     ".gitignore",
     os.path.join("src","__init_.py"),
-    "README"
+    "README",
     os.path.join("report","params.json"),
-    os.path.join("tests","scores.json")
+    os.path.join("tests","scores.json"),
     os.path.join("tests","conftest.py"),
     os.path.join("tests","test_config.py"),
     os.path.join("tests","__init__.py")
