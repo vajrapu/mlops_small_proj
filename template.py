@@ -8,6 +8,7 @@ dirs = [
     "saved_models",
     "src"
     "report"
+    "tests"
 ]
 
 for dir_ in dirs:
@@ -21,6 +22,11 @@ files = [
     ".gitignore",
     os.path.join("src","__init_.py"),
     "README"
+    os.path.join("report","params.json"),
+    os.path.join("tests","scores.json")
+    os.path.join("tests","conftest.py"),
+    os.path.join("tests","test_config.py"),
+    os.path.join("tests","__init__.py")
 ]
 
 for file_ in files:

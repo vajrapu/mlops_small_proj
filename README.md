@@ -35,3 +35,27 @@ commit changes to git
 ```bash
 git commit -m "first commit"
 ```
+
+tox command
+```bash
+tox
+```
+for rebuilding
+```bash
+tox -r
+```
+
+pytest command
+```bash
+pytest -v
+```
+
+setup commands
+```bash
+pip install -e .
+```
+
+to build our own packages
+```bash
+python3 setup.py sdist bdist wheel
+```
