@@ -4,6 +4,11 @@ import os
 dirs = [
     os.path.join("data", "raw"),
     os.path.join("data", "processed"),
+    os.path.join("prediction_service", "model"),
+    os.path.join("webapp", "static", "css"),
+    os.path.join("webapp", "static", "script"),
+    os.path.join("webapp", "templates"),
+    "webapp",
     "notebooks",
     "saved_models",
     "src"
@@ -26,7 +31,14 @@ files = [
     os.path.join("tests", "scores.json"),
     os.path.join("tests", "conftest.py"),
     os.path.join("tests", "test_config.py"),
-    os.path.join("tests", "__init__.py")
+    os.path.join("tests", "__init__.py"),
+    os.path.join("prediction_service", "__init__.py"),
+    "app.py",
+    os.path.join("webapp", "static", "css", "main.css"),
+    os.path.join("webapp", "static", "script", "index.js"),
+    os.path.join("webapp", "templates", "index.html"),
+    os.path.join("webapp", "templates", "404.html"),
+    os.path.join("webapp", "templates", "base.html")
 ]
 
 for file_ in files:
