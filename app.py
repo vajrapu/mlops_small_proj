@@ -23,13 +23,13 @@ def index():
                 return render_template("index.html", response=response)
 
             elif request.json:
-                response = prediction.api_response(requst.json)
+                response = prediction.api_response(request.json)
                 return jsonify(response)
 
         except Exception as e:
             print(e)
-            #error = {"error": "Something went wrong!!! Try again"}
-            return render_template("404.html", error=e)
+            error = {"error": e}
+            return render_template("404.html", error=error)
     else:
         return  render_template("index.html")
 
