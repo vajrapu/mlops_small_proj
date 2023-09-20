@@ -66,9 +66,9 @@ stages:
       size: 41
     - path: report/scores.json
       hash: md5
-      md5: 0a9d5c8b29f9001ef2219160c358c9f7
+      md5: 86524820870673b16aeaa90890571e40
       size: 97
     - path: saved_models/model.joblib
       hash: md5
-      md5: f8cfdc1a5a3f65f9d1b1ad4d84718b0f
-      size: 1263
+      md5: 52147e6853b2fe0a78c3c73e949dbb0d
+      size: 1279
